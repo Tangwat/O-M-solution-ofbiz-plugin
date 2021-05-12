@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <ActivityType ActivityTypeId="Emergency" description="Emergency"/>
+    <ActivityType ActivityTypeId="Customer_Call" description="Customer Call"/>
+    <ActivityType ActivityTypeId="Job_Done" description="Job Done"/>
+    <ActivityType ActivityTypeId="Observation_Made" description="Observation Made"/>
+<!--    -->
+    <ActivityStatus ActivityStatusId="Okay" description="Okay"/>
+    <ActivityStatus ActivityStatusId="Not_Okay" description="Not Okay"/>
+</entity-engine-xml>

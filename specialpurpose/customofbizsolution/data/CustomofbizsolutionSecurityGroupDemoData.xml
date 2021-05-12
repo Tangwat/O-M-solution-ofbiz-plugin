@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="CUSTOMOFBIZSOLUTION_ADMIN"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="CUSTOMOFBIZSOLUTION_CREATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="CUSTOMOFBIZSOLUTION_DELETE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="CUSTOMOFBIZSOLUTION_UPDATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="CUSTOMOFBIZSOLUTION_VIEW"/>
+    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="CUSTOMOFBIZSOLUTION_VIEW"/>
+    <SecurityGroupPermission groupId="BIZADMIN" permissionId="CUSTOMOFBIZSOLUTION_ADMIN"/>
+</entity-engine-xml>

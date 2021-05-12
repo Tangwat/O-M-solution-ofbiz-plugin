@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the Customofbizsolution Component." permissionId="CUSTOMOFBIZSOLUTION_VIEW"/>
+    <SecurityPermission description="Create operations in the Customofbizsolution Component." permissionId="CUSTOMOFBIZSOLUTION_CREATE"/>
+    <SecurityPermission description="Update operations in the Customofbizsolution Component." permissionId="CUSTOMOFBIZSOLUTION_UPDATE"/>
+    <SecurityPermission description="Delete operations in the Customofbizsolution Component." permissionId="CUSTOMOFBIZSOLUTION_DELETE"/>
+    <SecurityPermission description="ALL operations in the Customofbizsolution Component." permissionId="CUSTOMOFBIZSOLUTION_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="CUSTOMOFBIZSOLUTION_ADMIN"/>
+
+</entity-engine-xml>

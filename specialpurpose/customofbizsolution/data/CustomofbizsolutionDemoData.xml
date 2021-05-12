@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <Activity ActivityId="SAMPLE_DEMO_1" ActivityTypeId="Emergency" Description="Sample First 1" ActionTaken="Sample Last 1" Recommendation="This is test comment for first record." ActivityStatusId="Okay"/>
+    <Activity ActivityId="SAMPLE_DEMO_2" ActivityTypeId="Customer_Call" Description="Sample First 2" ActionTaken="Sample last 2" Recommendation="This is test comment for second record." ActivityStatusId="Okay"/>
+    <Activity ActivityId="SAMPLE_DEMO_3" ActivityTypeId="Job_Done" Description="Sample First 3" ActionTaken="Sample last 3" Recommendation="This is test comment for third record." ActivityStatusId="Not_Okay"/>
+    <Activity ActivityId="SAMPLE_DEMO_4" ActivityTypeId="Observation_Made" Description="Sample First 4" ActionTaken="Sample last 4" Recommendation="This is test comment for fourth record." ActivityStatusId="Not_Okay"/>
+</entity-engine-xml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entitymodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/entitymodel.xsd">
+    <!-- ========================================================= -->
+    <!-- ======================== Defaults ======================= -->
+    <!-- ========================================================= -->
+    <title>Entity of Customofbizsolution Component</title>
+    <description>None</description>
+<!--    <copyright></copyright>-->
+    <version>1.0</version>
+    <entity entity-name="ActivityType" package-name="org.apache.customofbizsolution" title="Activity Type Entity">
+        <field name="ActivityTypeId" type="id"><description>primary sequenced ID</description></field>
+        <field name="description" type="description"></field>
+        <prim-key field="ActivityTypeId"/>
+    </entity>
+
+    <entity entity-name="ActivityStatus" package-name="org.apache.customofbizsolution" title="Activity Status Entity">
+        <field name="ActivityStatusId" type="id"><description>primary sequenced ID</description></field>
+        <field name="description" type="description"></field>
+        <prim-key field="ActivityStatusId"/>
+    </entity>
+
+    <entity entity-name="Activity" package-name="org.apache.customofbizsolution" title="Activity Entity">
+        <field name="ActivityId" type="id"><description>primary sequenced ID</description></field>
+        <field name="ActivityTypeId" type="id"></field>
+        <field name="Description" type="comment"></field>
+        <field name="ActionTaken" type="comment"></field>
+        <field name="Recommendation" type="comment"></field>
+        <field name="ActivityStatusId" type="id"></field>
+        <prim-key field="ActivityId"/>
+        <relation type="one" fk-name="ODEM_OD_TYPE_ID" rel-entity-name="ActivityType">
+            <key-map field-name="ActivityTypeId"/>
+        </relation>
+        <relation type="one" fk-name="ODEM_OD_STATUS_ID" rel-entity-name="ActivityStatus">
+            <key-map field-name="ActivityStatusId"/>
+        </relation>
+    </entity>
+
+</entitymodel>
